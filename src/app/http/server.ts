@@ -1,6 +1,6 @@
 import express from 'express';
-import {ExceptionHandlerGlobal} from '../http/middlewares/ErrorsMiddleware';
-import {ChangeHeaderXPoweredXMiddleware} from '../http/middlewares/ChangeHeaderXPowered';
+import {ExceptionHandlerGlobal} from './middlewares/ErrorsMiddleware';
+import {ChangeHeaderXPoweredXMiddleware} from './middlewares/ChangeHeaderXPowered';
 import 'express-async-errors';
 import {routes} from '../routes';
 import cors from 'cors';
