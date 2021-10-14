@@ -4,6 +4,7 @@ import {ChangeHeaderXPoweredXMiddleware} from '../http/middlewares/ChangeHeaderX
 import 'express-async-errors';
 import {routes} from '../routes';
 import cors from 'cors';
+import '../container';
 
 const app = express();
 app.use(express.json());
