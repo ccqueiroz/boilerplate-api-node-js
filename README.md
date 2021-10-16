@@ -8,7 +8,11 @@
 ```sh
     https://github.com/CaioQueirozIFCE/boilerplate-api-node-js.git .
 ```
+## Install
 
+```sh
+   Com o projeto clonado, execute yarn install para instalar todas as dependências listadas no package.json
+```
 ## Documentação
 
 A estrutura do projeto contém como estrutura as seguintes dependências:
@@ -24,6 +28,17 @@ A estrutura do projeto contém como estrutura as seguintes dependências:
 ```
 
 <p align="start">API já conta com sistema de tratamentos de erros globais, logs, dotenv e suporte para injeção de dependências com o tsyringe</p>
+
+## Running dev :rocket:
+
+```sh
+   yarn dev:server
+```
+## Running build :artificial_satellite:
+
+```sh
+   yarn build
+```
 
 ## License
 

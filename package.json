@@ -4,8 +4,7 @@
   "description": "boilerplate node js",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && node ./dist/app/http/server.js",
     "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/app/http/server.ts"
   },
   "repository": {
