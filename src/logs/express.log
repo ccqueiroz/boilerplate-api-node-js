@@ -1,0 +1,21 @@
+
+Request: POST / at Fri Oct 15 2021 23:27:44 GMT-0300, IP: ::ffff:127.0.0.1, User Agent: insomnia/2021.5.3
+Request Body:
+{
+	"teste": true
+}
+Response Body:
+olá
+Response: 200 2.457 ms 
+
+Request: POST / at Fri Oct 15 2021 23:28:07 GMT-0300, IP: ::ffff:127.0.0.1, User Agent: insomnia/2021.5.3
+Request Body:
+{
+	"teste": true
+}
+Response Body:
+{
+	"status": "error",
+	"message": "Internal server error"
+}
+Response: 500 17.527 ms 
