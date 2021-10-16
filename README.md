@@ -13,7 +13,7 @@
 ```sh
    Com o projeto clonado, execute yarn install para instalar todas as dependências listadas no package.json
 ```
-## Documentação
+## Documentation
 
 A estrutura do projeto contém como estrutura as seguintes dependências:
 
