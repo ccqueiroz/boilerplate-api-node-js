@@ -1,4 +1,4 @@
 node_modules
-./dist
+dist
 .env
-./src/logs/express.log
+src/logs/express.log
