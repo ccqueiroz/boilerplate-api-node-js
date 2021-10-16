@@ -15,11 +15,11 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-morganBody(app, morganBodyOptions);
 
 app.use(routes);
-app.use(ExceptionHandlerGlobal);
 
+morganBody(app, morganBodyOptions);
+app.use(ExceptionHandlerGlobal);
 app.use(ChangeHeaderXPoweredXMiddleware);
 
 app.listen(process.env.APP_PORT || 3334, () => console.log(`server rodando, porta ${process.env.APP_PORT}`));
