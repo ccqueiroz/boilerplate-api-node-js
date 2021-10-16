@@ -12,7 +12,8 @@
 ## Documentação
 
 A estrutura do projeto contém como estrutura as seguintes dependências:
-````js
+
+```js
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
@@ -20,8 +21,9 @@ A estrutura do projeto contém como estrutura as seguintes dependências:
     "moment": "^2.29.1",
     "morgan-body": "^2.6.6",
     "tsyringe": "^4.6.0"
-````
-<p align="center">API já conta com sistema de tratamentos de erros globais, logs, dotenv e suporte para injeção de dependências com o tsyringe</p>
+```
+
+<p align="start">API já conta com sistema de tratamentos de erros globais, logs, dotenv e suporte para injeção de dependências com o tsyringe</p>
 
 ## License
 
