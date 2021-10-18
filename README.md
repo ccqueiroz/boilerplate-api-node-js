@@ -34,7 +34,7 @@
    yarn build
 ```
 
-Docker:
+## Docker:
 
 ```bash
 # run docker container in development mode
