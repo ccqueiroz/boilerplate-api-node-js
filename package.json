@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc && node ./dist/app/http/server.js",
-    "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/app/http/server.ts"
+    "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/app/http/server.ts",
+    "docker:dev": "docker-compose --env-file .env.development -f docker-compose.yml -f docker-compose.dev.yml up --build --remove-orphans -d",
+    "docker:prod": "docker-compose --env-file .env -f docker-compose.yml -f docker-compose.dev.yml up --build --remove-orphans -d"
   },
   "repository": {
     "type": "git",

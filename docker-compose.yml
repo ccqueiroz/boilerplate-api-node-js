@@ -1,0 +1,18 @@
+version: '3.2'
+
+services:
+  app:
+    build:
+      context: .
+      target: node-backend-development
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - '${APP_PORT}:${APP_PORT}'
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - app-network
+networks:
+   app-network:
+      name: "${APP_NAME}-network"

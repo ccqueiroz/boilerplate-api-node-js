@@ -3,10 +3,10 @@ import express from 'express';
 import {ExceptionHandlerGlobal} from './middlewares/ErrorsMiddleware';
 import {ChangeHeaderXPoweredXMiddleware} from './middlewares/ChangeHeaderXPowered';
 import 'express-async-errors';
-import {routes} from '../routes';
 import cors from 'cors';
 import '../container';
 import morganBody from 'morgan-body';
+import {routes} from '../routes';
 import {morganBodyOptions} from '../../logs/config/MorganBodyOptions';
 
 dotenv.config();
@@ -14,7 +14,6 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors());
-
 
 app.use(routes);
 
