@@ -23,6 +23,7 @@
 - **CORS**: Cross-Origin Resource-Sharing enabled using [cors](https://github.com/expressjs/cors)
 - **Linting**: with [ESLint](https://eslint.org) and [Prettier](https://prettier.io)
 - **Editor config**: consistent editor configuration using [EditorConfig](https://editorconfig.org)
+
 ## Running dev :rocket:
 
 ```sh
@@ -34,7 +35,7 @@
    yarn build
 ```
 
-## Docker:
+## Docker :whale:
 
 ```bash
 # run docker container in development mode
